@@ -1,0 +1,19 @@
+food_name,category,serving_unit,serving_description,kcal_per_serving
+Cooked White Rice,Rice and Staples,cup,1 cup cooked (about 158g),200
+Brown Rice,Rice and Staples,cup,1 cup cooked,215
+Fried Rice,Fried Rice (Sinangag),cup,1 cup garlic fried rice,290
+Pandesal,Rice and Staples,piece,2 pieces pandesal,160
+Sliced Bread,Rice and Staples,slice,2 slices white bread,160
+Instant Noodles,Rice and Staples,pack,1 pack cooked (about 80g dry),380
+Boiled Egg,Protein and Ulam,piece,1 large boiled egg,78
+Fried Egg,Protein and Ulam,piece,1 large fried egg,110
+Chicken Adobo,Protein and Ulam,cup,1 cup with sauce,380
+Fried Chicken,Protein and Ulam,piece,1 piece thigh with skin,320
+Grilled Fish,Protein and Ulam,fillet,1 fillet about 100g,140
+Fried Fish,Protein and Ulam,piece,1 piece about 100g,210
+Pork Adobo,Protein and Ulam,cup,1 cup with sauce,450
+Banana,Fruits and Vegetables,piece,1 medium lakatan/saba type average,105
+Apple,Fruits and Vegetables,piece,1 medium apple,95
+Papaya,Fruits and Vegetables,cup,1 cup cubed ripe Papaya,62
+Boiled Vegetables,Fruits and Vegetables,cup,1 cup boiled mixed vegetables,60
+Vegetable Dish,Fruits and Vegetables,cup,1 cup Pinakbet-style mixed vegetables,130

@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore MagnaTayISU, a student-built Android project for daily step tracking and offline Filipino food logging.">
+  <meta name="theme-color" content="#183f2e">
+  <title>MagnaTayISU — Small steps, clearer everyday habits</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="wordmark" href="#top" aria-label="MagnaTayISU home">MagnaTayISU</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#showcase">App preview</a>
+        <a href="#demo">Try the demo</a>
+        <a href="#faq">FAQ</a>
+        <a href="#resources">Resources</a>
+        <a class="nav-download" href="MagnaTayISU.apk" download="MagnaTayISU.apk">Download APK</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">A student-built Android project</p>
+          <h1 id="hero-title">Small steps.<br><em>Clearer everyday habits.</em></h1>
+          <p class="hero-lead">MagnaTayISU brings daily walking records and food entries into one simple view. Check a personal step goal, log a meal from an offline Filipino food list, and review saved history by date.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="MagnaTayISU.apk" download="MagnaTayISU.apk">Download the demo APK</a>
+            <a class="text-link text-link-light" href="#features">Explore the features</a>
+          </div>
+          <p class="build-status">Test-signed demo build. Physical-device verification is pending; this is not a Google Play release.</p>
+          <div class="hero-meta" aria-label="Project details">
+            <span>Android</span>
+            <span>MIT App Inventor 2</span>
+            <span>Offline food logging</span>
+          </div>
+        </div>
+
+        <figure class="hero-visual">
+          <div class="visual-heading">
+            <span>Dashboard</span>
+            <span class="preview-label">HTML simulation preview</span>
+          </div>
+          <a class="hero-screen" href="#showcase" aria-label="View the dashboard preview in the app showcase">
+            <img src="screenshots/dashboard_preview.png" alt="MagnaTayISU dashboard HTML simulation preview showing an empty step and meal state" width="820" height="1815">
+          </a>
+          <figcaption>Preview interface only; not a screenshot from the installed Android app.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="quick-facts" aria-label="Project at a glance">
+      <div class="container facts-grid">
+        <div class="fact">
+          <p class="fact-title">A daily record</p>
+          <p>Walking steps, a personal goal, and date-based history.</p>
+        </div>
+        <div class="fact">
+          <p class="fact-title">An offline starter list</p>
+          <p>18 food entries with serving-based calorie estimates.</p>
+        </div>
+        <div class="fact">
+          <p class="fact-title">Estimates, clearly labeled</p>
+          <p>Food calories and walking calories remain separate.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">01 / FEATURES</p>
+          <div>
+            <h2 id="features-title">A practical toolkit for everyday tracking.</h2>
+            <p class="section-intro">Use the app to keep simple personal records. Its food list and basic calculations are designed to work offline; all displayed calorie and distance values are estimates.</p>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-item">
+            <p class="feature-number">01</p>
+            <h3>Review daily movement</h3>
+            <p>See the step count, personal goal, progress, estimated distance, and estimated walking calories on the Dashboard.</p>
+            <p class="feature-detail">The stock Pedometer is foreground-oriented. Keep the Step Tracker open while using the stock version.</p>
+          </article>
+          <article class="feature-item">
+            <p class="feature-number">02</p>
+            <h3>Log meals by serving</h3>
+            <p>Search the local starter-food list, choose a meal, enter servings, and review the estimated food calories before saving.</p>
+            <p class="feature-detail">A simple example: 200 kcal per cup of cooked white rice × 2 servings = an estimated 400 kcal.</p>
+          </article>
+          <article class="feature-item">
+            <p class="feature-number">03</p>
+            <h3>Return to saved history</h3>
+            <p>Review steps and meal records for a selected date, with a simple summary of recent walking activity.</p>
+            <p class="feature-detail">Records are stored locally on the device; clearing app data or uninstalling may remove them.</p>
+          </article>
+          <article class="feature-item">
+            <p class="feature-number">04</p>
+            <h3>Set personal values</h3>
+            <p>Adjust the step goal and stride length, with an optional weight setting used by the walking estimate.</p>
+            <p class="feature-detail">Values are personal inputs, not health guidance or a medical recommendation.</p>
+          </article>
+        </div>
+
+        <div class="separation-note">
+          <strong>Food consumed and walking calories burned are shown separately.</strong>
+          <span>MagnaTayISU does not calculate a calorie deficit or provide medical or nutrition advice.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase-section" id="showcase" aria-labelledby="showcase-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">02 / APP SHOWCASE</p>
+          <div>
+            <h2 id="showcase-title">Take a closer look at the screens.</h2>
+            <p class="section-intro">Choose a thumbnail, use the Previous and Next controls, or swipe left and right on a touch screen. Select the large image to open it. These are HTML simulation previews, not captures from an installed Android app.</p>
+          </div>
+        </div>
+
+        <div class="gallery" id="app-gallery" aria-roledescription="carousel" aria-label="MagnaTayISU HTML preview screens">
+          <div class="gallery-stage" id="gallery-stage">
+            <button class="gallery-image-button" id="gallery-open" type="button" aria-label="Open Dashboard preview larger">
+              <img id="gallery-main-image" src="screenshots/dashboard_preview.png" alt="Dashboard HTML simulation preview with zero steps and no meals logged" width="820" height="1815">
+            </button>
+          </div>
+          <div class="gallery-information" aria-live="polite">
+            <p class="gallery-count" id="gallery-count">01 / 05 · HTML PREVIEW</p>
+            <h3 id="gallery-title">Dashboard</h3>
+            <p id="gallery-description">An empty-state Dashboard preview with step, goal, distance, and food summaries.</p>
+            <div class="gallery-controls">
+              <button class="control-button" id="gallery-previous" type="button" aria-label="Show previous app preview">Previous</button>
+              <button class="control-button" id="gallery-next" type="button" aria-label="Show next app preview">Next</button>
+            </div>
+            <p class="gallery-help">Keyboard: focus the preview and use the left or right arrow keys. On a phone, swipe across the image.</p>
+          </div>
+          <div class="gallery-thumbnails" id="gallery-thumbnails" role="group" aria-label="Choose an app preview"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo" aria-labelledby="demo-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">03 / INTERACTIVE WEB DEMO</p>
+          <div>
+            <h2 id="demo-title">Try a serving-based food estimate.</h2>
+            <p class="section-intro">Choose an item from the starter list and change the serving amount to see the arithmetic. This small web demo is separate from the Android app.</p>
+          </div>
+        </div>
+
+        <div class="demo-layout">
+          <div class="calculator" id="food-calculator" role="group" aria-label="Food serving estimate calculator">
+            <div class="field-group">
+              <label for="food-choice">Food item</label>
+              <select id="food-choice" name="food" required>
+                <option value="rice">Cooked White Rice</option>
+                <option value="brown-rice">Brown Rice</option>
+                <option value="fried-rice">Fried Rice</option>
+                <option value="pandesal">Pandesal</option>
+                <option value="sliced-bread">Sliced Bread</option>
+                <option value="instant-noodles">Instant Noodles</option>
+                <option value="boiled-egg">Boiled Egg</option>
+                <option value="fried-egg">Fried Egg</option>
+                <option value="chicken-adobo">Chicken Adobo</option>
+                <option value="fried-chicken">Fried Chicken</option>
+                <option value="grilled-fish">Grilled Fish</option>
+                <option value="fried-fish">Fried Fish</option>
+                <option value="pork-adobo">Pork Adobo</option>
+                <option value="banana">Banana</option>
+                <option value="apple">Apple</option>
+                <option value="papaya">Papaya</option>
+                <option value="boiled-vegetables">Boiled Vegetables</option>
+                <option value="vegetable-dish">Vegetable Dish</option>
+              </select>
+              <p class="field-note" id="food-serving-note">1 cup cooked (about 158g) · 200 kcal per serving</p>
+            </div>
+            <div class="field-group">
+              <label for="servings">Number of servings</label>
+              <input id="servings" name="servings" type="number" inputmode="decimal" min="0.1" step="0.1" value="1" required>
+              <p class="field-note">Enter a positive amount, such as 1, 1.5, or 2.</p>
+            </div>
+            <div class="estimate-result" aria-live="polite" aria-atomic="true">
+              <p class="result-label">Estimated food calories</p>
+              <p class="result-number" id="estimated-kcal">200 kcal</p>
+              <p class="result-equation" id="estimate-equation">200 kcal per serving × 1 serving</p>
+            </div>
+            <noscript><p class="no-script-note">JavaScript is needed to update this estimate. You can still download the food database from the Resources section.</p></noscript>
+          </div>
+
+          <aside class="demo-explanation">
+            <p class="section-kicker">A small example</p>
+            <h3>See how the serving amount changes the estimate.</h3>
+            <ol class="demo-steps">
+              <li><span>01</span><p>Choose a food from the offline starter list.</p></li>
+              <li><span>02</span><p>Enter the number of servings.</p></li>
+              <li><span>03</span><p>Review the estimated result and calculation.</p></li>
+            </ol>
+            <p class="demo-disclaimer">This website demo is not connected to the Android app. Values stay in this page and are not sent or saved. Calorie values are approximate and vary by recipe and portion. The demo does not calculate a calorie deficit or give health advice.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <p class="section-kicker">04 / FAQ</p>
+          <h2 id="faq-title">Good questions.<br><em>Clear answers.</em></h2>
+          <p>Details about the app's current behavior, estimates, and test status.</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary><span>Does the stock version count steps when the app is closed?</span></summary>
+            <div class="faq-answer"><p>The stock MIT App Inventor Pedometer is foreground-oriented. Do not assume it reliably counts in the background or after the app is closed. A separate Itoo project is available, but background behavior still needs an installed build and physical-device testing.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Are the distance and calorie values exact?</span></summary>
+            <div class="faq-answer"><p>No. They are estimates. Step readings, stride length, body inputs, ingredients, cooking methods, and serving sizes can affect the values.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Can I use the food list and basic logging offline?</span></summary>
+            <div class="faq-answer"><p>The starter food list and basic food calculations are designed to work offline. The app stores records locally and does not provide account-based cloud syncing.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Are these screenshots from the installed Android app?</span></summary>
+            <div class="faq-answer"><p>No. The gallery images are clearly labeled HTML simulation previews. They show the interface design and sample empty states, not live sensor readings or captures from an installed app.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Does MagnaTayISU calculate a calorie deficit?</span></summary>
+            <div class="faq-answer"><p>No. Food calories consumed and estimated walking calories burned are kept separate. The app does not calculate a calorie deficit or provide medical or nutrition advice.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Is this an official Isabela State University app?</span></summary>
+            <div class="faq-answer"><p>No. MagnaTayISU is a student project. The project name and student-created materials do not indicate official university sponsorship, approval, or endorsement.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Is the APK ready for Google Play?</span></summary>
+            <div class="faq-answer"><p>No. The downloadable APK is a test-signed demonstration sideload build derived from the supplied AAB. It is not signed with a production release key and has not been verified on a physical phone. The AAB link is included below for reference; an AAB is not a tap-to-install APK.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources" aria-labelledby="resources-title">
+      <div class="container resources-layout">
+        <div class="resources-main">
+          <p class="section-kicker">05 / DOCUMENTATION & SUPPORT</p>
+          <h2 id="resources-title">Project documents and source files.</h2>
+          <p class="resources-intro">Download the report, project notes, source projects, and test checklist. The PRD and TRD are included in the full project report.</p>
+
+          <div class="document-list">
+            <article class="document-item">
+              <div>
+                <p class="document-type">PROJECT REPORT</p>
+                <h3>Full report, including PRD and TRD</h3>
+                <p>Project requirements, technical design, limitations, testing status, and supporting materials.</p>
+              </div>
+              <div class="document-links">
+                <a href="downloads/MagnaTayISU_Full_Project_Report.pdf" download>PDF</a>
+                <a href="downloads/MagnaTayISU_Full_Project_Report.docx" download>Word</a>
+              </div>
+            </article>
+            <article class="document-item">
+              <div>
+                <p class="document-type">PROPOSAL</p>
+                <h3>Completed project proposal</h3>
+                <p>Project proposal in PDF format.</p>
+              </div>
+              <div class="document-links"><a href="downloads/MagnaTayISU_Project_Proposal_Completed.pdf" download>Download PDF</a></div>
+            </article>
+            <article class="document-item">
+              <div>
+                <p class="document-type">BUILD & TEST</p>
+                <h3>Development guide and testing checklist</h3>
+                <p>Implementation notes, project limitations, and manual test cases. Physical step testing is still required.</p>
+              </div>
+              <div class="document-links">
+                <a href="downloads/README_DEVELOPMENT_GUIDE.md" download>Development guide</a>
+                <a href="downloads/TESTING_CHECKLIST.md" download>Test checklist</a>
+              </div>
+            </article>
+            <article class="document-item">
+              <div>
+                <p class="document-type">APP INVENTOR SOURCE</p>
+                <h3>Stock and separate background projects</h3>
+                <p>The background-service AIA is a separate source project; compiling and testing it on a phone is still required.</p>
+              </div>
+              <div class="document-links">
+                <a href="downloads/MagnaTayISU.aia" download>Stock AIA</a>
+                <a href="downloads/MagnaTayISU_Background.aia" download>Background AIA</a>
+                <a href="downloads/IMPORT_AND_TEST.md" download>Import and test notes</a>
+                <a href="downloads/BACKGROUND_VERSION_README.md" download>Background notes</a>
+              </div>
+            </article>
+            <article class="document-item">
+              <div>
+                <p class="document-type">DATA & DISTRIBUTION</p>
+                <h3>Food list and supplied app bundle</h3>
+                <p>CSV starter-food database. The supplied Google Drive file is an AAB, not an installable APK.</p>
+              </div>
+              <div class="document-links">
+                <a href="downloads/food_database.csv" download>Food database CSV</a>
+                <a href="https://drive.google.com/file/d/1hJ_Ccr_xx_vx2JjGEN5RfL1FwH3s4u5a/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View AAB in Drive</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="support-panel" aria-labelledby="support-title">
+          <p class="section-kicker">PROJECT SUPPORT</p>
+          <h3 id="support-title">Need installation or project details?</h3>
+          <p>Start with the report, development guide, and testing checklist. For course or project questions, contact the developer through the project submission channel.</p>
+          <div class="support-contact">
+            <p class="support-label">Project developer</p>
+            <p class="support-name">Michael M. Tolentino</p>
+            <p>No public support email is listed on this page.</p>
+          </div>
+          <p class="support-note">The website and its food-estimate demo are static files. The calculator does not send or store visitor inputs.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="footer-wordmark" href="#top">MagnaTayISU</a>
+        <p>Daily step tracking and food logging · Student project</p>
+      </div>
+      <p class="footer-disclaimer">Not an official Isabela State University service. Not medical or nutrition advice. Food, distance, and walking-calorie values are estimates.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <dialog class="preview-dialog" id="preview-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-topline">
+      <div>
+        <p class="dialog-kicker">HTML SIMULATION PREVIEW</p>
+        <h2 id="dialog-title">Dashboard</h2>
+      </div>
+      <button class="control-button" id="dialog-close" type="button" aria-label="Close enlarged preview">Close</button>
+    </div>
+    <img id="dialog-image" src="screenshots/dashboard_preview.png" alt="Enlarged Dashboard HTML simulation preview">
+    <p id="dialog-caption" class="dialog-caption">Interface preview only; not a capture from an installed Android app.</p>
+  </dialog>
+</body>
+</html>
